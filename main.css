@@ -1,0 +1,523 @@
+body {
+    background-image: url("crosses sunset.jpg");
+    margin: 0 0 100px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    cursor: default;
+}
+
+.wacky {
+  background-color: white;
+}
+
+a:link {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:visited {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+a.top {
+    color: #fff;
+}
+
+
+
+#homeh1 {
+    font-size: 42pt;
+    font-family: 'Montserrat',sans-serif;
+    word-spacing: .1em;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: #8c0000;
+    padding-bottom: 20px;
+    text-shadow: 5px 5px 20px #ff5151;
+    text-decoration: none;
+    cursor: default;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+}
+
+#homeh2 {
+    font-size: 22pt;
+    font-family: 'PT Serif Caption',serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 300px;
+    color: #8c0000;
+    padding-bottom: 20px;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px 6px #fff;
+}
+
+/* Combined with #homeh2
+
+#homeh3 {
+    font-size: 22pt;
+    font-family: 'PT Serif Caption',serif;
+    text-align: center;
+    margin: 0 auto;
+    color: #8c0000;
+    padding-bottom: 20px;
+    text-decoration: none;
+    text-shadow: 1.5px 1.5px 6px #fff;
+}
+
+*/
+
+#homeh4 {
+    font-family: 'PT Serif Caption',serif;
+    text-align: center;
+    font-size: 13pt;
+    color: #8c0000;
+    text-shadow: 1.5px 1.5px 6px #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Navigation */
+
+div.nav1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.nav .current {
+  background-color: white;
+  color: #8c0000;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 15px;
+}
+
+
+
+button.dropbtn {
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    border-radius: 15px;
+    background-color: white;
+    color: #8c0000;
+    border: solid white;
+    font-weight: 700;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 999999;
+    cursor: pointer;
+
+  }
+
+div.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+div.dropdown-content {
+    display: none;
+    position: relative;
+    margin-top: 15px;
+}
+
+div.dropdown-content a {
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    background-color: #8c0000;
+    color: white;
+    border: solid white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+
+div.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8c0000;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 75px;
+    text-align: center;
+    font-weight: 700;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    margin-right: -4px;
+  }
+
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+a:active {
+    text-decoration: none;
+
+}
+
+
+li.menuitem {
+  width: 11.5%;
+}
+
+
+#homedec {
+  width: 11.5%;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+.plainp {
+    margin-top: 120px;
+    margin-left: 20px;
+    line-height: 200%;
+    font-weight: bold;
+    display: inline-block;
+    border: solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    padding: 25px;
+    background-color: white;
+}
+
+.plainp a {
+    color: black;
+}
+
+.p1, .p2, .p3 {
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: block;
+    color: white;
+    width: 80%;
+}
+
+
+
+.p1:hover {
+    position: relative;
+}
+
+.p1:hover a {
+    position: absolute;
+    width: 31%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.p2:hover {
+    position: relative;
+}
+
+.p2:hover a {
+    position: absolute;
+    width: 18.4%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.p3:hover {
+    position: relative;
+}
+
+.p3:hover a {
+    position: absolute;
+    width: 18.4%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.about {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.aboutp {
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+
+.belclr, .belclr1 {
+    color: white;
+}
+
+.h31 {
+    float: left;
+  }
+
+.h32 {
+  float: left;
+}
+
+.belclr p {
+    text-align: justify;
+    float: left;
+    width: 580px;
+    margin-top: 50px;
+    margin-left: 190px;
+    line-height: 200%;
+    display: inline-block;
+    border: solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    color: black;
+    padding: 25px;
+    background-color: white;
+  }
+
+.belclr1 p {
+    text-align: justify;
+    float: right;
+    margin-right: 190px;
+    width: 580px;
+    margin-top: 50px;
+    margin-left: 10px;
+    line-height: 200%;
+    display: inline-block;
+    border: solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    color: black;
+    padding: 25px;
+    padding-bottom: 218px;
+    background-color: white;
+}
+
+.beh1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.beltitle {
+    font-weight: bold;
+}
+
+.missh3 {
+  text-align: center;
+  color: white;
+}
+
+.missp {
+  text-align: center;
+  color: white;
+}
+
+.misspic {
+  text-align: center;
+}
+
+.missbox {
+  margin-top: 50px;
+  line-height: 200%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.goingh3 {
+  margin-top: 68px;
+  text-align: center;
+}
+
+.goingp {
+  text-align: center;
+}
+
+/* What's going on form */
+
+#onform {
+  float: right;
+  margin-top: 25px;
+  margin-right: 525px;
+  margin-bottom: 125px;
+  border: solid #f5f5f0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #f5f5f0;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.formp {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 14pt;
+  text-decoration: underline;
+}
+
+.prayh3 {
+  text-align: center;
+}
+
+.prayformp {
+  text-align: center;
+}
+
+.prayertext {
+  text-align: center;
+}
+
+.prayertextv {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+/* Prayer form */
+
+#prayform {
+  display: inline-block;
+  margin-left: 41.5%;
+  margin-bottom: 125px;
+  margin-top: 125px;
+  border: solid #f5f5f0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #f5f5f0;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.contacth3 {
+  margin-top: 68px;
+  text-align: center;
+}
+
+.contactp {
+  text-align: center;
+}
+
+/* Contact US form */
+
+#contactform {
+  display: inline-block;
+  margin-left: 41.5%;
+  margin-top: 25px;
+  margin-bottom: 125px;
+  border: solid #f5f5f0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #f5f5f0;
+  padding: 25px;
+}
+
+.prayp {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 14pt;
+  text-decoration: underline;
+}
+
+.youthh3 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+#youthevents {
+  text-align: center;
+  margin-top: 50px;
+}
+
+a.top {
+    color: white;
+    display: inline-block;
+
+}
+
+footer {
+    font-size: .75em;
+    text-align: center;
+    clear: both;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.f-icon {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 75px;
+}
+
+.copy {
+    margin-bottom: 50px;
+    color: white;
+}
