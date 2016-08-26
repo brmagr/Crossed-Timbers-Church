@@ -1,13 +1,19 @@
-body {
-    background-image: url("crosses sunset.jpg");
-    margin: 0 0 100px;
-}
-
 html {
     position: relative;
     min-height: 100%;
     cursor: default;
 }
+
+body {
+    background-image: url("crosses_sunset.jpg");
+    margin: 0 0 100px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+
 
 .wacky {
   background-color: white;
@@ -95,12 +101,10 @@ div.nav1 {
 }
 
 .nav .current {
-  background-color: white;
-  color: #8c0000;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 700;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  border-radius: 15px;
+  font-size: 18pt;
 }
 
 
@@ -179,12 +183,6 @@ li a {
     text-decoration: none;
 }
 
-
-
-
-
-
-
 a:active {
     text-decoration: none;
 
@@ -192,12 +190,12 @@ a:active {
 
 
 li.menuitem {
-  width: 11.5%;
+  width: 13%;
 }
 
 
 #homedec {
-  width: 11.5%;
+  width: 13%;
 }
 
 
@@ -381,13 +379,16 @@ li.menuitem {
 .goingh3 {
   margin-top: 68px;
   text-align: center;
+  color: white;
+  font-size: 18pt;
 }
 
 .goingp {
   text-align: center;
+  color: white;
 }
 
-/* What's going on form */
+/* What's going on form
 
 #onform {
   float: right;
@@ -404,7 +405,7 @@ li.menuitem {
   padding-right: 25px;
   padding-bottom: 25px;
 }
-
+*/
 .formp {
   font-weight: bold;
   text-align: center;
@@ -413,22 +414,30 @@ li.menuitem {
   text-decoration: underline;
 }
 
-.prayh3 {
+.prayertexth {
   text-align: center;
+  color: white;
+  font-size: 18pt;
 }
 
 .prayformp {
   text-align: center;
+  color: white;
+  font-size: 14pt;
 }
 
 .prayertext {
   text-align: center;
+  color: white;
+  font-size: 14pt;
 }
 
 .prayertextv {
   text-align: center;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin-bottom: 75px;
+  margin-top: 75px;
+  color: white;
+  font-size: 14pt;
 }
 
 /* Prayer form */
@@ -452,10 +461,14 @@ li.menuitem {
 .contacth3 {
   margin-top: 68px;
   text-align: center;
+  color: white;
+  font-size: 18pt;
 }
 
 .contactp {
   text-align: center;
+  color: white;
+  font-size: 14pt;
 }
 
 /* Contact US form */
@@ -480,6 +493,7 @@ li.menuitem {
   padding-bottom: 15px;
   font-size: 14pt;
   text-decoration: underline;
+  color: white;
 }
 
 .youthh3 {
@@ -520,4 +534,21 @@ footer {
 .copy {
     margin-bottom: 50px;
     color: white;
+}
+
+#gform {
+text-align: center;
+margin-top: 50px;
+}
+
+#gformprayer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#gformgoingon {
+  float: right;
+  margin-right: 310px;
+  margin-top: 68px;
+  margin-bottom: 50px;
 }

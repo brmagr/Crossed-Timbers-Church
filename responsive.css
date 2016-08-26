@@ -4,14 +4,26 @@
       background-image: url("crosses sunset.jpg");
   }
 
-  nav ul li {
+  ul {
       text-align: center;
-      width: 100%!important;
+      width: 25%!important;
   }
+
+  button.dropbtn {
+    width: 25%!important;
+    }
+
+    li.menuitem {
+      width: 13%!important;
+    }
+
+    #homedec {
+      width: 13%!important;
+    }
 
   .nav .current {
       text-align: center;
-      width: 100%!important;
+      width: 25%!important;
   }
 
 
@@ -22,14 +34,22 @@
       background-image: url("crosses sunset.jpg");
   }
 
-  nav ul li {
+  ul {
       text-align: center;
-      width: 100%!important;
+      width: 50%!important;
   }
 
   .nav .current {
       text-align: center;
-      width: 100%!important;
+      width: 50%!important;
+  }
+
+  li.menuitem {
+    width: 13%!important;
+  }
+
+  #homedec {
+    width: 13%!important;
   }
 
 
@@ -40,8 +60,8 @@
   body {
       background-image: url("crosses sunset.jpg");
   }
-  
-  nav ul li {
+
+  ul {
       text-align: center;
       width: 100%!important;
   }
