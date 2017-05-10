@@ -1,0 +1,329 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.links .current {
+  text-decoration: underline;
+  }
+
+.maplink {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid white;
+  color: #8c0000;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.center {
+    text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:visited {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+  #homeh2 {
+	font-size: 22pt;
+	font-family: 'PT Serif Caption', serif;
+  text-decoration-style: italic;
+	text-align: center;
+	margin: 0 auto;
+	color: #8c0000;
+	padding-bottom: 20px;
+	text-decoration: none;
+	/* text-shadow: 1.5px 1.5px 6px black; */
+	width: 100%;
+}
+
+#homeh4 {
+	font-family: 'PT Serif Caption', serif;
+	text-align: center;
+	font-size: 13pt;
+	color: #8c0000;
+  font-weight: bold;
+	/* text-shadow: 1.5px 1.5px 6px black; */
+	text-align: center;
+	margin-bottom: 70px;
+  margin-top: 5px;
+	font-style: italic;
+	width: 100%;
+}
+
+/* Announcements CSS */
+#announcements {
+  text-align: center;
+  border: 2px solid gray;
+  margin-bottom: 100px;
+  width: 25%;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.annhead {
+  margin-bottom: 20px;
+}
+
+.annpara {
+  margin-bottom: 20px;
+  line-height: 200%;
+}
+
+.reminder {
+  font-weight: bold;
+}
+
+
+
+.plainp {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.p {
+  margin-top: 100px;
+}
+
+.p1, .p2, .p3 {
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.p1 a, .p2 a, .p3 a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.about {
+  font-weight: bold;
+  text-align: center;
+}
+
+.aboutp {
+  text-align: center;
+  line-height: 2;
+}
+
+#bible {
+	text-align: center;
+
+}
+
+.belclr p {
+  position: absolute;
+	text-align: justify;
+	width: 580px;
+	margin-left: 175px;
+  margin-bottom: 200px;
+  margin-top: 0;
+	line-height: 200%;
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	text-align: center;
+	padding: 25px;
+	background-color: white;
+  z-index: -15;
+}
+
+.belclr1 p {
+  position: relative;
+	text-align: justify;
+	width: 580px;
+	margin-top: 50px;
+	margin-left: 875px;
+	line-height: 200%;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	text-align: center;
+	padding: 25px;
+	padding-bottom: 217px;
+	background-color: white;
+  margin-bottom: 200px;
+  z-index: -15;
+}
+
+.beh1 {
+	text-align: center;
+	margin-bottom: 50px;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.beh2 {
+	text-align: center;
+	margin-bottom: 50px;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.beltitle {
+	font-weight: bold;
+}
+
+
+
+.missh3 {
+	text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+  margin-bottom: 50px;
+}
+
+.missp {
+	text-align: center;
+  margin-bottom: 50px;
+}
+
+.misspic {
+	text-align: center;
+}
+
+.missbox {
+	margin-top: 50px;
+	line-height: 200%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.youthh3 {
+	text-align: center;
+	margin-top: 50px;
+  font-weight: bold;
+  font-size: 20pt;
+  margin-bottom: 25px;
+}
+
+.youthh4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+#youthevents {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.contacth3 {
+	margin-top: 68px;
+  margin-bottom: 50pt;
+	text-align: center;
+	font-size: 18pt;
+  font-weight: bold;
+  color: black;
+}
+
+.contactp {
+	text-align: center;
+	font-size: 14pt;
+  color: black;
+  line-height: 200%;
+}
+
+
+/* Contact US form */
+
+
+
+.prayp {
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 14pt;
+	text-decoration: underline;
+}
+
+.prayertexth {
+	text-align: center;
+	font-size: 18pt;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.prayformp {
+	text-align: center;
+	font-size: 14pt;
+}
+
+.prayertext {
+	text-align: center;
+	font-size: 14pt;
+}
+
+.prayertextv {
+	text-align: center;
+	margin-bottom: 75px;
+	margin-top: 75px;
+	font-size: 14pt;
+}
+
+
+
+.goingh3 {
+	margin-top: 68px;
+  margin-bottom: 25px;
+	text-align: center;
+	color: black;
+	font-size: 18pt;
+  font-weight: bold;
+}
+
+.goingp {
+	text-align: center;
+	color: black;
+}
+
+#gform {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+#zimout a{
+     color: black;
+     background-color: white;
+     padding: 5px;
+     border: 2px solid black;
+}
+
+
+#zimout {
+     margin-top: 50px;
+     text-align: center;
+     margin-bottom: 25px;
+}
+
+.f-icon {
+	margin-left: 1575px;
+  margin-top: -82px;
+  position: fixed;
+ }
+
+ .copy {
+   margin-top: 150px;
+ }
+
+.copy1 {
+  color: blue;
+}
