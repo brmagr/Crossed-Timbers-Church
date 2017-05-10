@@ -1,88 +1,81 @@
 <!DOCTYPE html>
-<!--Crossed Timbers Church Web Page
-    Created by: Brent Gross
-    Date: January 31, 2016
--->
-<html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Crossed Timbers Church</title>
-    <link href="C:\Users\MP\Desktop\crossed timbers church">
-    <link href="main.css" rel="stylesheet">
-    <link href=
-    'https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel=
-    'stylesheet' type='text/css'>
-    <link href="main.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <href="home.html" id="logo">
-        <h1 id="homeh1">Crossed Timbers Church</h1>
 
-        <nav>
-                <ul class="nav">
-        <div class="nav1">
-                    <li class="menuitem">
-                        <a class="homec" href="home.html">Home</a>
-                    </li>
-                    <li class="menuitem">
-                        <a class="aboutc" href="about.html">About</a>
-                    </li>
-                    <li class="menuitem">
-                        <a class="belc" href="believe.html">We Believe</a>
-                    </li>
-                    <li class="menuitem">
-                        <a class="missc" href="missions.html">Missions</a>
-                    </li>
-                    <li class="menuitem">
-                        <a class="current" class="youc" href="youth.html">Youth</a>
-                    </li>
-                    </div>
+    <!-- CSS -->
+    <link href="css\main.css" rel="stylesheet">
+    <link href="css\navbar.css" rel="stylesheet">
 
-                    <div class="dropdown" >
-                      <button class="dropbtn">Contact Us</button>
-                      <div class="dropdown-content">
-                        <a href="contactus.html">Contact Information</a>
-                        <a href="prayer.html">Prayer Requests</a>
-                        <a href="goingon.html">What's Going On</a>
-                      </div>
-                    </div>
+  </head>
+  <header >
 
-                </ul>
-        </nav>
-        <h2 id="homeh2">His Word. His Way.</h2>
+    <div class="navbar">
+       <div class="container">
+          <div class="logo">
+             <h1>Crossed Timbers Church</h1>
+          </div>
+          <div class="toggle">
+             <span></span>
+             <span></span>
+             <span></span>
+          </div>
+          <div class="links">
+             <ul>
+                <li>
+                   <a href="index.html">Home</a>
+                </li>
+                <li>
+                   <a href="about.html">About</a>
+                </li>
+                <li>
+                   <a href="believe.html">Believe</a>
+                </li>
+                <li>
+                   <a href="missions.html">Missions</a>
+                </li>
+                <li>
+                   <a class="current" href="youth.html">Youth</a>
+                </li>
+                <li>
+                   <a href="contactus.html">Contact</a>
+                   <!--Add Prayer Requests and What's going on to same page-->
+                </li>
+             </ul>
+          </div>
+          <div class="clearfix"></div>
+       </div>
+    </div>
+    <div class="intro">
+    </div>
 
-        <h4 id="homeh4">For God so loved the world that he gave his one and only Son, that
-        whoever believes in him shall not perish but have eternal life. (John
-        3:16 NIV)</h4>
-
-    </header>
-
-<h3 class="youthh3">Youth</h3>
-
-<h3 class="youthh3">CHECK BACK, CONTACT US, OR COME VISIT US ON SUNDAY MORNINGS FOR MORE UPCOMING EVENTS!!!</h3>
-
-<!--
-<div id="youthevents">
-<img src="C:\Users\Public\Documents\crossed timbers church\">
-</div>
-<br><br>
-
-
-<br><br>
--->
-
-    <footer class="main-footer">
-      <div class="f-icon">
-        <a href="https://www.facebook.com/crossedtimbers.church?fref=ts"><img src="FB-f-Logo__blue_50.png"></a>
-      </div>
-        <div style="text-align: center">
-            <a class="top" href="#top">Back to top &raquo;</a>
+    <div class="f-icon">
+          <a href="https://www.facebook.com/crossedtimbers.church?fref=ts"><img src="img/FB-f-Logo__blue_29.png"></a>
         </div>
-        <div style="text-align: center">
-            <p class="copy">&copy;Designer | 2016 Brent Gross.</p>
-        </div>
-    </footer>
 
-</body>
+    <h2 id="homeh2">His Word. His Way.</h2>
+
+<h4 id="homeh4">For God so loved the world that he gave his one and only Son, that
+whoever believes in him shall not perish but have eternal life. (John
+3:16 NIV)</h4>
+</header>  <body>
+
+  <h3 class="youthh3">Youth</h3>
+
+  <p class="youthh4">CHECK BACK, CONTACT US, OR COME VISIT US ON SUNDAY MORNINGS FOR MORE UPCOMING EVENTS!!!</p>
+
+  <!--Responsive Navbar-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/navbarjs.js"></script>
+
+  <footer>
+  <p class="copy">&copy;Designer | <script>document.write(new Date().getFullYear())</script>
+ <a class="copy1"href="https://www.linkedin.com/in/enthusiastic-new-web-developer
+">Brent Gross</a></p>
+</footer>
+
 </html>
