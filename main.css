@@ -1,554 +1,308 @@
 html {
-    position: relative;
-    min-height: 100%;
-    cursor: default;
+	position: relative;
+	min-height: 100%;
 }
 
 body {
-    background-image: url("crosses_sunset.jpg");
-    margin: 0 0 100px;
-    min-width: 100%;
-    min-height: 100%;
+	margin: 0 0 100px;
 }
 
+footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
 
+.links .current {
+	text-decoration: underline;
+}
 
+.maplink {
+	text-align: center;
+	padding: 10px;
+	border: 2px solid white;
+	color: #8c0000;
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: auto;
+	margin-right: auto;
+}
 
-
-.wacky {
-  background-color: white;
+.center {
+	text-align: center;
 }
 
 a:link {
-    text-decoration: none;
-    background-color: transparent;
+	text-decoration: none;
+	background-color: transparent;
 }
 
 a:visited {
-    text-decoration: none;
-    background-color: transparent;
-}
-
-
-
-a.top {
-    color: #fff;
-}
-
-
-
-#homeh1 {
-    font-size: 42pt;
-    font-family: 'Montserrat',sans-serif;
-    word-spacing: .1em;
-    text-align: center;
-    margin: 0 auto;
-    color: white;
-    background-color: #8c0000;
-    padding-bottom: 20px;
-    text-shadow: 5px 5px 20px #ff5151;
-    text-decoration: none;
-    cursor: default;
-    position: fixed;
-    width: 100%;
-    top: 0px;
-
+	text-decoration: none;
+	background-color: transparent;
 }
 
 #homeh2 {
-    font-size: 22pt;
-    font-family: 'PT Serif Caption',serif;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 300px;
-    color: #8c0000;
-    padding-bottom: 20px;
-    text-decoration: none;
-    text-shadow: 1.5px 1.5px 6px #fff;
+	font-size: 22pt;
+	font-family: 'PT Serif Caption', serif;
+	text-decoration-style: italic;
+	text-align: center;
+	margin: 0 auto;
+	color: #8c0000;
+	padding-bottom: 20px;
+	text-decoration: none;
+	/* text-shadow: 1.5px 1.5px 6px black; */
+	width: 100%;
 }
-
-/* Combined with #homeh2
-
-#homeh3 {
-    font-size: 22pt;
-    font-family: 'PT Serif Caption',serif;
-    text-align: center;
-    margin: 0 auto;
-    color: #8c0000;
-    padding-bottom: 20px;
-    text-decoration: none;
-    text-shadow: 1.5px 1.5px 6px #fff;
-}
-
-*/
 
 #homeh4 {
-    font-family: 'PT Serif Caption',serif;
-    text-align: center;
-    font-size: 13pt;
-    color: #8c0000;
-    text-shadow: 1.5px 1.5px 6px #fff;
-    text-align: center;
-    margin-bottom: 20px;
-    font-style: italic;
-}
-
-/* Navigation */
-
-div.nav1 {
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-.nav .current {
-  text-decoration: underline;
-  font-weight: 700;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  font-size: 18pt;
+	font-family: 'PT Serif Caption', serif;
+	text-align: center;
+	font-size: 13pt;
+	color: #8c0000;
+	font-weight: bold;
+	/* text-shadow: 1.5px 1.5px 6px black; */
+	text-align: center;
+	margin-bottom: 70px;
+	margin-top: 5px;
+	font-style: italic;
+	width: 100%;
 }
 
 
+/* Announcements CSS */
 
-button.dropbtn {
-    padding: 10px;
-    font-size: 14px;
-    position: relative;
-    border-radius: 15px;
-    background-color: white;
-    color: #8c0000;
-    border: solid white;
-    font-weight: 700;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    z-index: 999999;
-    cursor: pointer;
-
-  }
-
-div.dropdown {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 20px;
+#announcements {
+	text-align: center;
+	border: 2px solid gray;
+	margin-bottom: 100px;
+	width: 25%;
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-div.dropdown-content {
-    display: none;
-    position: relative;
-    margin-top: 15px;
+#youthevents {
+	text-align: center;
+	font-size: 18pt;
+	border: 2px solid black;
+	width: 25%;
+	padding: 10px;
+	box-shadow: 0 0 16px 0 blue, 0 6px 20px 0 blue;
+	color: black;
+	margin-bottom: 60px;
 }
 
-div.dropdown-content a {
-    padding: 5px;
-    text-decoration: none;
-    display: block;
-    background-color: #8c0000;
-    color: white;
-    border: solid white;
-    border-radius: 15px;
-    margin: 10px;
+.annhead {
+	margin-bottom: 20px;
 }
 
-
-
-div.dropdown:hover .dropdown-content {
-    display: block;
+.annpara {
+	margin-bottom: 20px;
+	line-height: 200%;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #8c0000;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    top: 75px;
-    text-align: center;
-    font-weight: 700;
-}
-
-li {
-    display: inline-block;
-    list-style: none;
-    margin-right: -4px;
-  }
-
-
-
-li a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-
-}
-
-
-li.menuitem {
-  width: 13%;
-}
-
-
-#homedec {
-  width: 13%;
-}
-
-
-
-.center {
-    text-align: center;
+.reminder {
+	font-weight: bold;
 }
 
 .plainp {
-    margin-top: 120px;
-    margin-left: 20px;
-    line-height: 200%;
-    font-weight: bold;
-    display: inline-block;
-    border: solid black;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    padding: 5px;
-    text-align: center;
-    color: black;
-    padding: 25px;
-    background-color: white;
+	text-align: center;
+	margin-bottom: 75px;
 }
 
-.plainp a {
-    color: black;
+.p {
+	margin-top: 100px;
 }
 
 .p1, .p2, .p3 {
-    font-weight: 700;
-    margin-top: 50px;
-    margin-left: 20px;
-    display: block;
-    color: white;
-    width: 80%;
+	margin-top: 75px;
+	margin-left: 20px;
 }
 
-
-
-.p1:hover {
-    position: relative;
+.p1 a, .p2 a, .p3 a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
 }
 
-.p1:hover a {
-    position: absolute;
-    width: 31%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    text-decoration: none;
-    z-index: 10;
-}
-
-.p2:hover {
-    position: relative;
-}
-
-.p2:hover a {
-    position: absolute;
-    width: 18.4%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    text-decoration: none;
-    z-index: 10;
-}
-
-.p3:hover {
-    position: relative;
-}
-
-.p3:hover a {
-    position: absolute;
-    width: 18.4%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    text-decoration: none;
-    z-index: 10;
-}
-
+/*About Page*/
 .about {
-  font-weight: bolder;
-  text-align: center;
-  margin-top: 50px;
-  color: white;
+	font-weight: bold;
+	text-align: center;
 }
 
 .aboutp {
-    text-align: center;
-    color: white;
-    line-height: 40px;
+	text-align: center;
+	line-height: 2;
 }
 
-.belclr, .belclr1 {
-    color: white;
+/*Believe Page*/
+#bible {
+	text-align: center;
+	margin-bottom: 100px;
 }
 
-.h31 {
-    float: left;
-  }
-
-.h32 {
-  float: left;
+.belclr {
+	/* offset-x | offset-y | blur-radius | spread-radius | color */
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding: 15px;
+	position: relative;
+	z-index: -1;
 }
 
-.belclr p {
-    text-align: justify;
-    float: left;
-    width: 580px;
-    margin-top: 50px;
-    margin-left: 190px;
-    line-height: 200%;
-    display: inline-block;
-    border: solid black;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    text-align: center;
-    color: black;
-    padding: 25px;
-    background-color: white;
-  }
 
-.belclr1 p {
-    text-align: justify;
-    float: right;
-    margin-right: 190px;
-    width: 580px;
-    margin-top: 50px;
-    margin-left: 10px;
-    line-height: 200%;
-    display: inline-block;
-    border: solid black;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    text-align: center;
-    color: black;
-    padding: 25px;
-    padding-bottom: 218px;
-    background-color: white;
+
+.belclr1 {
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding: 15px;
+	margin-top: 30px;
+	position: relative;
+	z-index: -1;
 }
 
-.beh1 {
-    color: white;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.beltitle {
-    font-weight: bold;
-}
-
+/*Missions Page*/
 .missh3 {
-  text-align: center;
-  color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20pt;
+	margin-bottom: 50px;
 }
 
 .missp {
-  text-align: center;
-  color: white;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 .misspic {
-  text-align: center;
+	text-align: center;
 }
 
 .missbox {
-  margin-top: 50px;
-  line-height: 200%;
-  margin-left: 25%;
-  margin-right: 25%;
+	margin-top: 50px;
+	line-height: 200%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
-.goingh3 {
-  margin-top: 68px;
-  text-align: center;
-  color: white;
-  font-size: 18pt;
+/*Youth Page*/
+
+.youthh3 {
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 20pt;
+	margin-bottom: 25px;
 }
 
-.goingp {
-  text-align: center;
-  color: white;
-}
-
-/* What's going on form
-
-#onform {
-  float: right;
-  margin-top: 25px;
-  margin-right: 525px;
-  margin-bottom: 125px;
-  border: solid #f5f5f0;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
-  background-color: #f5f5f0;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 25px;
-}
-*/
-.formp {
-  font-weight: bold;
-  text-align: center;
-  padding-bottom: 15px;
-  font-size: 14pt;
-  text-decoration: underline;
-}
-
-.prayertexth {
-  text-align: center;
-  color: white;
-  font-size: 18pt;
-}
-
-.prayformp {
-  text-align: center;
-  color: white;
-  font-size: 14pt;
-}
-
-.prayertext {
-  text-align: center;
-  color: white;
-  font-size: 14pt;
-}
-
-.prayertextv {
-  text-align: center;
-  margin-bottom: 75px;
-  margin-top: 75px;
-  color: white;
-  font-size: 14pt;
-}
-
-/* Prayer form */
-
-#prayform {
-  display: inline-block;
-  margin-left: 41.5%;
-  margin-bottom: 125px;
-  margin-top: 125px;
-  border: solid #f5f5f0;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
-  background-color: #f5f5f0;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 25px;
-}
-
-.contacth3 {
-  margin-top: 68px;
-  text-align: center;
-  color: white;
-  font-size: 18pt;
-}
-
-.contactp {
-  text-align: center;
-  color: white;
-  font-size: 14pt;
+.youthh4 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12pt;
+	margin-top: 40px;
 }
 
 /* Contact US form */
 
-#contactform {
-  display: inline-block;
-  margin-left: 41.5%;
-  margin-top: 25px;
-  margin-bottom: 125px;
-  border: solid #f5f5f0;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
-  background-color: #f5f5f0;
-  padding: 25px;
+.contacth3 {
+	margin-top: 68px;
+	margin-bottom: 50pt;
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+	color: black;
+}
+
+.contactp {
+	text-align: center;
+	font-size: 14pt;
+	color: black;
+	line-height: 200%;
 }
 
 .prayp {
-  font-weight: bold;
-  text-align: center;
-  padding-bottom: 15px;
-  font-size: 14pt;
-  text-decoration: underline;
-  color: white;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 14pt;
+	text-decoration: underline;
 }
 
-.youthh3 {
-  text-align: center;
-  color: white;
-  margin-top: 50px;
+.prayertexth {
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+	margin-bottom: 50px;
+	margin-top: 100px;
 }
 
-#youthevents {
-  text-align: center;
-  margin-top: 50px;
+.prayformp {
+	text-align: center;
+	font-size: 14pt;
 }
 
-a.top {
-    color: white;
-    display: inline-block;
-
+.prayertext {
+	text-align: center;
+	font-size: 14pt;
 }
 
-footer {
-    font-size: .75em;
-    text-align: center;
-    clear: both;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
+.prayertextv {
+	text-align: center;
+	margin-bottom: 75px;
+	margin-top: 75px;
+	font-size: 14pt;
+}
+
+.goingh3 {
+	margin-top: 68px;
+	margin-bottom: 25px;
+	text-align: center;
+	color: black;
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+.goingp {
+	text-align: center;
+	color: black;
+}
+
+/*Google Form*/
+#gform {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#zimout a {
+	color: black;
+	background-color: white;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+#zimout {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 25px;
 }
 
 .f-icon {
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 25px;
-    margin-top: 75px;
+	margin-left: 1575px;
+	margin-top: -82px;
+	position: fixed;
 }
 
 .copy {
-    margin-bottom: 50px;
-    color: white;
+	margin-top: 350px;
 }
 
-#gform {
-text-align: center;
-margin-top: 50px;
-}
-
-#gformprayer {
-  text-align: center;
-  margin-top: 50px;
-}
-
-#gformgoingon {
-  float: right;
-  margin-right: 310px;
-  margin-top: 68px;
-  margin-bottom: 50px;
+.copy1 {
+	color: blue;
 }

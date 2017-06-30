@@ -1,0 +1,40 @@
+@media only screen and (max-width: 346px) {
+    .maplink {
+				font-size: 9pt;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .belclr, .belclr1 {
+				z-index: -1;
+				margin-left: auto;
+				margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .belclr, .belclr1 {
+        width: 50%;
+				z-index: -1;
+				margin-left: auto;
+				margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .belclr, .belclr1 {
+        width: 50%;
+				z-index: -1;
+				margin-left: auto;
+				margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .belclr, .belclr1 {
+        width: 50%;
+				z-index: -1;
+				margin-left: auto;
+				margin-right: auto;
+    }
+}
